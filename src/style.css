@@ -1,10 +1,10 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-/*body {
-  background-color: black;
+body {
+  background-color: rgb(64, 64, 114);
 }
 
-.grid {
+/*.grid {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -26,7 +26,9 @@
 .col-1 {
   padding: 12px;
   border: 1px;
-  border-color: black;
+  color: aquamarine;
+  background-color: rgb(62, 62, 123);
+  border-color: white;
   border-style: solid;
 }
 
@@ -37,4 +39,20 @@
 
 .blank {
   border-style: none;
+  background-color: rgb(64, 64, 114);
+}
+
+.gridborder {
+  background-color: rgb(48, 48, 85);
+}
+
+.top {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.side {
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-right: 4px;
 }
