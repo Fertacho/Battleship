@@ -22,3 +22,15 @@
   color: aquamarine;
 }
 */
+
+.col-1 {
+  padding: 12px;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.row {
+  padding-top: 100px;
+  max-width: 600px;
+}
