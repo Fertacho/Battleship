@@ -2,10 +2,14 @@
 import "bootstrap";
 import "./style.css";
 
-/*window.onload = function() {
-  console.log("Hello Rigo from the console!");
-};*/
+window.onload = function() {
+  let attack = "fire";
 
-function fireTorpedo() {
-  return console.log("fire");
-}
+  document.querySelectorAll(".col-1").addEventListener("click", fireTorpedo);
+
+  function fireTorpedo() {
+    console.log("attack");
+  }
+
+  console.log("Hello Rigo from the console!");
+};
